@@ -1,0 +1,441 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    
+
+}
+
+
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+    padding: 10px;
+    color: #fff;
+}
+
+.logo h1 {
+    margin-left: 50px;
+    font-size: 1.5rem;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 50px;
+    display: flex;
+    gap: 60px;
+}
+
+.navigation li {
+    margin-left: 20px;
+    
+}
+
+.navigation a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 560;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #56572c;
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.image-container {
+    flex: 1;
+     
+}
+
+.image-container img {
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+}
+
+.quote-container {
+    flex: 1;
+    padding-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.quote-container h1 {
+    font-size: 2rem;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+
+.quote-container h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #666;
+    font-family: "Crimson Text", serif;
+}
+
+.cta-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    
+}
+
+.cta-button:hover {
+    background-color: #444;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.about-image {
+    
+    flex: 1;
+    order: 2;
+     
+}
+
+.about-image img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.about-discription {
+    flex: 1;
+    padding-left: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-discription h1 {
+    font-size: 2rem;
+    
+}
+
+.about-discription h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+    line-height: 5px;
+    color: #666;
+    font-family: "Crimson Text", serif;
+}
+.services-section{
+    padding: 50px;
+    text-align: center;
+}
+.services-section h1{
+    font-size: 2rem;
+    padding-top: 100px;
+    
+
+
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-item{
+    flex: 1;
+    margin: 0 20px;
+}
+.service-item img{
+    padding-top: 40px;
+    max-width: 100%;
+    height: 130px;
+    width: 130px;
+}
+.service-item p{
+    margin-top: 10px;
+    color: #000000;
+    line-height: 3px;
+    font-weight: bold;
+    word-spacing: 2px;
+    font-family: "Crimson Text", serif;
+}
+.background-line{
+    position: absolute;
+    top: -900px;
+    width: 500px;
+    height: 140.5rem;
+    background: rgb(236, 250, 45);
+    z-index: -1;
+    pointer-events: none;
+    transform: rotate(-56deg);
+}
+
+
+.background-line2 {
+    
+    position: absolute;
+    top: 45rem;
+    right: 200px;
+    width: 200rem;
+    height: 550px;
+    background: linear-gradient(to right, rgb(185, 194, 62), rgb(248, 252, 59), rgb(254, 255, 179));
+
+    z-index: -1;
+    transform: translateX(50%) rotate(-200deg);
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%)
+    
+    
+}
+
+
+
+
+
+.work-container {
+    width: 70%;
+    padding-top: 200px;
+}
+
+.work-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 70px 0;
+    padding-left: 200px;
+
+}
+
+h2 {
+    margin: 5px;
+    text-align: center;
+    line-height: 1.2;
+    margin-left: 100px;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+
+
+
+}
+
+div.work-images {
+    display: flex;
+    align-items: end;
+    margin-right: 100px;
+  
+}
+
+img {
+    width: 220px;
+    height: 150px;
+    margin-left: 20px;
+    
+}
+
+.background-line3{
+    position: absolute;
+    top: 1rem;
+    width: 500px;
+    height: 200rem;
+    background: rgb(236, 250, 45);
+    z-index: -1;
+    pointer-events: none;
+    transform: rotate(-56deg);
+}
+
+.mission-container {
+    text-align: center;
+    margin: 40px 0; 
+    padding-top: 80px;
+}
+.mission-container h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.mission-description {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.background-line4{
+    position: absolute;
+    top:124rem;
+    right: 10px;
+    width: 200px;
+    height: 70rem;
+    background: rgb(0, 0, 0);
+    z-index: -1;
+    pointer-events: none;
+    transform: rotate(66deg);
+}
+
+
+.testimonial-container { 
+    text-align: start;
+    margin: 40px 0;
+    padding-top: 80px;
+    
+}
+
+.testimonial-container h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: start;
+    margin-left: 10rem;
+}
+
+.testimonial-container h2 i {
+    color: #ffcc00;
+
+}
+
+.testimonial-description {
+    background-color: rgb(224, 215, 76);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 100rem;
+    
+}
+.testimonial-description p {
+    margin-left: 10rem;
+}
+
+.fa-quote-left {
+    font-size: 50px;
+}
+
+.clients-section {
+    margin: 40px 0;
+}
+
+.clients-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.client-logo {
+    width: 150px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+.reach-out-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.address {
+    flex: 1;
+    text-align: left;
+    padding-left: 8.5rem;
+}
+
+.social-media {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media i {
+    font-size: 2rem;
+}
+
+.logo-message {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.message-icon {
+    font-size: 2rem;
+}
+
+.reach-us h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    padding-left: 4rem;
+    font-size: 2rem;
+}
+
+.line-container {
+    display: flex;
+    align-items: end;
+    justify-content:end;
+    margin: 0 0;
+    background-color: black;
+}
+
+
+
+.text {
+    
+    color: #fff;
+    margin: 20px;
+    padding-left: 10rem;
+}
+
+.triangle {
+    position: absolute;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    left: -100px;
+    bottom: -211rem;
+    
+    border-left: 90px solid transparent;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #3498db;
+    z-index: -1;
+}
